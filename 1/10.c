@@ -17,7 +17,8 @@ main(){
 		{
 			printf("\\b");
 		}
-		putchar(c);
+		else
+			putchar(c);
 	}
 	printf("\n");
 }
