@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void){
+main(){
 	int c;
 
 	while ((c = getchar()) != EOF)
@@ -9,11 +9,11 @@ int main(void){
 		{
 			printf("\\t");
 		}
-		if (c == '\\')
+		else if (c == '\\')
 		{
 			printf("\\");
 		}
-		if (c == '\b')
+		else if (c == '\b')
 		{
 			printf("\\b");
 		}

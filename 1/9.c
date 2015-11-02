@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(void){
+main(){
 	int c, space;
 
 	space = 0;
@@ -8,12 +8,14 @@ int main(void){
 	while((c = getchar()) != EOF)
 	{
 		if(c == ' ')
+		{
 			if(space == 0)
 			{
 				space = 1;
 				putchar(c);
 			}
-		if(c != ' ')
+		}
+		else
 		{
 			space = 0;
 			putchar(c);
