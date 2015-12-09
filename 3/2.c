@@ -1,6 +1,6 @@
 /*
  *Author: YuQian Xie <xieceph@163.com>
- *Date: Nov 7.2015
+ *Date: Dec 7.2015
  *File: 2.c
  *
  *Write a function escape(s,t) that converts characters like 
@@ -22,9 +22,9 @@ main()
     char t[50] = "Hello,\tWorld! \nMistakee \twas Extra 'e'!\n";
 	printf("%s\n",t);
 	escape(s, t);
-	printf("×ª»»Îª¿É¼ûµÄ×Ö·û´®Îª£º%s\n",s);
+	printf("è½¬æ¢ä¸ºå¯è§çš„å­—ç¬¦ä¸²ä¸ºï¼š%s\n",s);
 	unescape(s,t);
-	printf("×ª»»ÎªÊµ¼Ê×Ö·ûÎª£º%s\n",s);
+	printf("è½¬æ¢ä¸ºå®é™…å­—ç¬¦ä¸ºï¼š%s\n",s);
 }
 
 void escape(char s[], char t[])
