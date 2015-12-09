@@ -1,6 +1,6 @@
 /*
  *Author: YuQian Xie <xieceph@163.com>
- *Date: Nov 7.2015
+ *Date: Dec 7.2015
  *File: 1.c
  *
  *Our binary search makes two tests inside the loop, 
@@ -17,15 +17,15 @@ main()
 	int v[MAXLEN];
 	int x, n, i;
 
-	printf("Äú½«ÊäÈë¶àÉÙ¸öÊı: ");
+	printf("æ‚¨å°†è¾“å…¥å¤šå°‘ä¸ªæ•°: ");
 	scanf("%d", &n);
 	for (i = 0; i < n; i++) {
-		printf("ÇëÊäÈëv[%d]: ", i);
+		printf("è¯·è¾“å…¥v[%d]: ", i);
 		scanf("%d", &v[i]);
 	}
-	printf("ÇëÊäÈëÄãÒª²éÕÒµÄÊı: ");
+	printf("è¯·è¾“å…¥ä½ è¦æŸ¥æ‰¾çš„æ•°: ");
 	scanf("%d", &x);
-	printf("%d µÄÎ»ÖÃÊÇ %d\n", x, binsearch(x, v, n));
+	printf("%d çš„ä½ç½®æ˜¯ %d\n", x, binsearch(x, v, n));
 
 	return 0;
 }
