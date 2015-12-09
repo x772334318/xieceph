@@ -1,6 +1,6 @@
 /*
  *Author: YuQian Xie <xieceph@163.com>
- *Date: Nov 8.2015
+ *Date: Dec 8.2015
  *File: 3.c
  *
  *Write a function expand(s1,s2) that expands shorthand notations 
@@ -18,7 +18,7 @@ main()
 {
 	char s1[MAXLEN], s2[MAXLEN];
 
-	printf("ÇëÊäÈë×Ö·û´®£º");
+	printf("Ã‡Ã«ÃŠÃ¤ÃˆÃ«Ã—Ã–Â·Ã»Â´Â®Â£Âº");
 	scanf("%s",&s1);
 	expand(s1, s2);
 	printf("%s\n", s2);
